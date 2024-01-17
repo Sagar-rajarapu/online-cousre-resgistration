@@ -1,0 +1,122 @@
+@media (max-width: 600px) {
+.navbar {
+    width: 100%;
+   
+    padding:15px 0;
+    
+    align-items: center;
+    
+
+  }
+
+  .navbar ul li {
+    list-style: none;
+    display: block;
+    margin:10px 0;
+    position: relative;
+  }
+  }
+
+  @media (min-width: 1000px) {
+
+  }    
+  .logo{
+    width: 110px;
+    margin-top: 0;
+    margin-left:8% ;
+    cursor: pointer;
+  }
+  .navbar {
+    width: 85%;
+    margin:auto;
+    padding:15px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+  }
+
+  .navbar ul li {
+    list-style: none;
+    display: inline-block;
+    margin:0 15px;
+    position: relative;
+  }
+
+  .navbar ul li a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+
+  }
+  .navbar ul li ::after{
+    content: '';
+    height:3px;
+    width: 0;
+    background: #009688;
+    position: absolute;
+    left:0;
+    bottom:-10px;
+    transition: 0.5s;
+
+  }
+  .navbar ul li :hover::after{
+    width:100%;
+
+  }
+  
+
+.banner {
+    width: 100%;
+    background-image: url("slider-image3.jpg");
+    height: 100vh;
+    background: -webkit-linear-gradient(rgb(26, 26, 26));
+
+    background-size: cover; 
+    background-position: center;
+  }
+        body { 
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+        }
+        .login-container {
+            width: 300px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            margin-top: 100px;
+        }
+        h2 _{
+            text-align: center;
+        }
+        .form-group {
+            margin-bottom: 15px;
+        }
+        .form-group label {
+            display: block;
+        }
+        .form-group input {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .login-button {
+            width: 75%;
+            background-color: #007BFF;
+            color: #fff;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointers;
+        }
+        
+        p{
+            margin-left: 50px;
+            
+        }a{
+            text-decoration: none;
+        }
+    

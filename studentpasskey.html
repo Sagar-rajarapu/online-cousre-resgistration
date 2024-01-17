@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Student Check</title>
+  <meta name="viewpoint" content="width=device-width,initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body style=" background: -webkit-linear-gradient(right,#003366,#004080,#0059b3
+, #0073e6);">
+  <div class="wrapper">
+    <div class="log">
+      <p>
+        <a href="studentlogin.html">
+
+          <img src="student.png" alt="student" height="75" width="75">
+        </a>
+         
+      </p>
+      </div>
+      <div class="title-text">
+        <diV class="title">Passkey</diV>
+      </div>
+       <div class="form-container">
+        <div class="slide-controls" >
+          <input type="radio" name="slide" id="login" checked>
+          <input type="radio" name="slide" id="signup">
+          <label for="login" class="slide login">Email</label>
+          <label for="signup" class="slide signup">Phone</label>
+          <div class="slider-tab"  style="background: -webkit-linear-gradient(right,#003366,#004080,#0059b3
+          , #0073e6);"></div>
+        </div>
+        <div class="form-inner">
+          <form action="#" class="login" onsubmit="return validateForm()">
+            <div class="field">
+              <input  placeholder="Email Address" name="email" required>
+            </div>
+            
+            <div class="field btn" style="height: 40px; width: 110px; margin-left: 200px; " >
+                <div class="btn-layer"  style="background: -webkit-linear-gradient(right,#003366,#004080,#0059b3
+                , #0073e6);"></div>
+                <input for="" type="submit" value="Get Email">
+              </div>
+            <div class="field" >
+                <input type="password" placeholder="Enter the OTP" required name="OTP">
+              </div>
+            <div class="field btn" >
+                <div class="btn-layer" style="background: -webkit-linear-gradient(right,#003366,#004080,#0059b3
+                , #0073e6);"></div>
+                <input type="submit" value="Submit">
+              </div>
+            <div class="signup-link">Not have a email? <a href="">Phone</a></div>
+          </form>
+          <form action="#" class="singup" onsubmit="return validateForm()">
+            <div class="field">
+              <input type="tel" pattern="[0-9]{10}" name="phone" placeholder="Phone no." required >
+            </div>
+            <div class="field btn"  style="height: 40px; width: 110px; margin-left: 200px; " >
+                <div class="btn-layer"  style="background: -webkit-linear-gradient(right,#003366,#004080,#0059b3
+                , #0073e6);"></div>
+                <input type="submit" value="Get SMS">
+              </div> 
+            <div class="field">
+              <input type="password" placeholder="Enter the OTP" required name="OTP">
+            </div>
+            
+            <div class="field btn">
+              <div class="btn-layer"  style="background: -webkit-linear-gradient(right,#003366,#004080,#0059b3
+              , #0073e6);"></div>
+              <input type="submit" value="Submit">
+            </div>
+            <div class="signup-link">Not have a Phone? <a href="studentpasskey.html">Email</a></div>
+        </form>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
