@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
 
 /* CSS for larger screens */
-@media (min-width: 600px) {
+@media (min-width: 900px) {
   .wrapper {
     
       width: 600px;
@@ -40,10 +40,13 @@
 
     
 .logo{
-  width: 110px;
-  margin-left:8% ;
-  cursor: pointer;
-}
+    width: 140px;
+    height:140px;
+    margin-left:8% ;
+    cursor: pointer;
+    border-radius: 72px;
+
+  }
 .navbar {
   width: 85%;
   margin:auto;

@@ -12,14 +12,17 @@ body {
 }
     
 .logo{
-    width: 110px;
+    width: 140px;
+    height:140px;
     margin-left:8% ;
     cursor: pointer;
+    border-radius: 72px;
+
   }
   .navbar {
     width: 85%;
     margin:auto;
-    padding:15px 0;
+    padding:5px 0;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -29,7 +32,7 @@ body {
   .navbar ul li {
     list-style: none;
     display: inline-block;
-    margin:0 15px;
+    margin:0 10px;
     position: relative;
   }
   
@@ -80,6 +83,7 @@ body {
 
 .notification-ui_dd-content {
     margin-bottom: 30px;
+    
 }
 
 .notification-list {
@@ -89,12 +93,13 @@ body {
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
     justify-content: space-between;
-    padding: 20px;
+    padding: 10px 20px;
     margin-bottom: 7px;
     background: #fff;
     -webkit-box-shadow: 0 3px 10px rgba(0, 0, 0, 0.06);
     box-shadow: 0 3px 10px rgba(0, 0, 0, 0.06);
     border-radius: 10px;
+    
 }
 @media screen and (max-width: 600px) {
     .notification-list {
@@ -104,12 +109,14 @@ body {
 
 .notification-list--unread {
     border-left: 2px solid #29B6F6;
+    
 }
 
 .notification-list .notification-list_content {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    
 }
 
 .notification-list .notification-list_content .notification-list_img img {
@@ -117,12 +124,15 @@ body {
     width: 48px;
     border-radius: 50px;
     margin-right: 20px;
+    
 }
 p{
     color: #c98858;
+    
 }
 b{
     color: #091e96;
+    
 }
 small{
     color: #000006;
@@ -131,11 +141,14 @@ small{
 .notification-list .notification-list_content .notification-list_detail p {
     margin-bottom: 5px;
     line-height: 1.2;
+    
+    
 }
 
 .notification-list .notification-list_feature-img img {
     height: 48px;
-    width: 48px;
+    width: 80px;
     border-radius: 5px;
     margin-left: 20px;
+    
 }

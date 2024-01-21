@@ -15,16 +15,14 @@
     margin:10px 0;
     position: relative;
   }
-  }
-
-  @media (min-width: 1000px) {
-
-  }    
+}
   .logo{
-    width: 110px;
-    margin-top: 0;
+    width: 140px;
+    height:140px;
     margin-left:8% ;
     cursor: pointer;
+    border-radius: 72px;
+
   }
   .navbar {
     width: 85%;
@@ -70,13 +68,12 @@
 
 .banner {
     width: 100%;
-    background-image: url("slider-image3.jpg");
     height: 100vh;
     background: -webkit-linear-gradient(rgb(26, 26, 26));
-
-    background-size: cover; 
+  background-size: cover; 
     background-position: center;
   }
+  
         body { 
             font-family: Arial, sans-serif;
             background-color: #f2f2f2;

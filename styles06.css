@@ -1,0 +1,172 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.bg-image {
+  /* Use linear-gradient to define the colors and angles of the gradient */
+  background-image: linear-gradient(45deg, #f3ec78, #af4261);
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/* Use @keyframes to animate the background position */
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+/* Use animation shorthand to set the duration, timing, and iteration of the animation */
+.bg-image {
+  animation: gradient-animation 3s ease-in-out infinite;
+}
+
+.bg-text {
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.06);
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Responsive layout - makes the menu and the content stack on top of each other */
+@media (max-width: 600px) {
+  .bg-text {
+    width: 100%;
+    padding: 30px;
+  }
+
+  .bg-image {
+    background-size: 100% auto;
+  }
+
+  .navbar {
+    width: 100%;
+
+    padding: 15px 0;
+
+    align-items: center;
+
+
+  }
+
+
+  .navbar ul li {
+    list-style: none;
+    display: block;
+    margin: 10px 0;
+    position: relative;
+  }
+}
+
+
+
+.logo {
+  width: 140px;
+  height: 140px;
+  margin-left: 8%;
+  cursor: pointer;
+  border-radius: 72px;
+
+}
+
+.navbar {
+  width: 85%;
+  margin: auto;
+  padding: 15px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+.navbar ul li {
+  list-style: none;
+  display: inline-block;
+  margin: 0 15px;
+  position: relative;
+}
+
+.navbar ul li a {
+  font-style: normal;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-decoration: none;
+
+  color: #2f2a03ea;
+  text-transform: uppercase;
+}
+
+.navbar ul li ::after {
+  content: '';
+  height: 3px;
+  width: 0;
+  background: #009688;
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  transition: 0.5s;
+
+}
+
+.navbar ul li :hover::after {
+  width: 100%;
+
+}
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
