@@ -59,7 +59,7 @@ img:hover {
   }
     
   /* Styles for small devices */
-@media (max-width: 600px) {
+@media (max-width: 200px) {
   .column {
     width: 100%;
     padding: 2px 0;
