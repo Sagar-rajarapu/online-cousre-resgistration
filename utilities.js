@@ -15,6 +15,6 @@ let navbar =`
           </ul>
         </div>
 `
-fountion loadMenu(){
+function loadMenu(){
 document.getElementByID("nav").innerHTML=navbar;
 }
