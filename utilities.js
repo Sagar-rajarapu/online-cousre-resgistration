@@ -16,5 +16,5 @@ var navbar =`
         </div>
 `
 function loadMenu(){
- document.getElementById("navbar").innerHTML = navbar
+ document.getElementById("nav").innerHTML = navbar
 }
