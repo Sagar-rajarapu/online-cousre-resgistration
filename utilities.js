@@ -1,5 +1,6 @@
 //utilities.js
 var navbar =`
+
 <div class="navbar">
           <a href="index.html">
             <img src="logo.PNG" class="logo">
